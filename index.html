@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Calculadora IMC</title>
+    <link rel="icon" type="imagem/png" href="images/balanca.png" />
+    <link rel="stylesheet" href="styles/styles.css" type="text/css">
+</head>
+
+<body>
+
+<h1>Calculadora de IMC</h1>
+<h2>Calcule seu Índice de Massa Corporal!</h2>
+
+<table>
+    <tr>
+        <td><label for="peso">Qual o seu peso? (kg):</label></td>
+        <td><input id="inpeso" name="peso" type="text" placeholder="80"></td>
+        <td><img class="icone" src="images/peso.png" ></td>
+    </tr>
+    <tr>
+        <td><label for="altura">Qual a sua altura? (m):</label></td>
+        <td><input id="inaltura" name="altura" type="number" placeholder="1,80"></td>
+        <td><img class="icone" src="images/altura.png" ></td>
+    </tr>
+
+</table>    
+
+
+<button id="calcular" type="submit">Calcular</button>
+<button id="limpar" type="reset">Limpar</button>
+
+<div class="resposta" id="mostrar"></div>
+
+<img class="fita" src="images/fita.png" >
+</body>
+
+<script src="scripts/main.js"></script>
+
+
+</html>
